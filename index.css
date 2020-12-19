@@ -1,3 +1,161 @@
-*{
-    background-image: url(ocean);
+@charset "UTF-8";
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0c0404;
+  margin: 5px;
+  padding: 5px;
+}
+
+body header {
+  background-image: url("Ocean.jpg.jpg");
+  width: 100%;
+  display: flex;
+}
+
+body header h1 {
+  margin-left: 1%;
+}
+
+body .menu {
+  text-align: right;
+  margin-top: 0;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-left: 30%;
+}
+
+body .menu a {
+  border-radius: 25px;
+  background-color: wheat;
+  justify-content: space-between;
+  margin: 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+body Article {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("Oceantło.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  padding: 20%;
+}
+
+body Article .photo {
+  background-image: url();
+}
+
+body Article .AboutMe {
+  border: 1px solid blue;
+  border-radius: 50px;
+  margin-left: 0;
+}
+
+body section {
+  background-image: url("tech.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 5%;
+  border-radius: 25%;
+}
+
+body section h1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: white;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+
+body section .Html {
+  border-radius: 25%;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .Sass {
+  border-radius: 25%;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .Js {
+  border-radius: 25%;
+  text-align: center;
+  border: 1px solid white;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body .Projects {
+  background-image: url("projects.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px dashed greenyellow;
+  color: white;
+  padding: 5%;
+  min-width: 100%;
+}
+
+body .Projects h1 {
+  text-align: center;
+}
+
+body .pr1 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr2 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr3 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr4 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr5 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr6 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr7 {
+  border: 1px dashed greenyellow;
+}
+
+body .pr8 {
+  border: 1px dashed greenyellow;
+}
+
+body .Contact {
+  border: 3px dashed wheat;
+}
+
+body footer {
+  border: 3px solid red;
+}
+
+body footer a {
+  border: 1px dashed red;
 }

@@ -1,0 +1,134 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(12, 4, 4);
+    margin: 5px;
+    padding: 5px;
+    header{
+        background-image: url("Ocean.jpg.jpg");
+        width: 100%;
+        display: flex;
+        h1{
+            margin-left: 1%;
+        }
+    }
+    .menu{
+        text-align: right;
+        margin-top: 0;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-left: 30%;
+        a{
+            border-radius: 25px;
+            background-color: wheat;
+            justify-content: space-between;
+            margin: 25px;
+            padding: 5px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+    Article{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: url("Oceantło.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        padding: 20%;
+        .photo{
+            background-image: url();
+        }
+        .AboutMe{
+            border: 1px solid blue;
+            border-radius: 50px;
+            margin-left:0;
+        }
+    }
+    section{
+        background-image: url("tech.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 5%;
+        border-radius: 25%;
+        h1{
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-align: center;
+            color: white;
+            border: 1px solid green;
+            border-radius: 50%;
+        }
+        .Html{
+            border-radius: 25%;
+            text-align: center;
+            border: 1px solid white;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .Sass{
+            border-radius: 25%;
+            text-align: center;
+            border: 1px solid white;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .Js{
+            border-radius: 25%;
+            text-align: center;
+            border: 1px solid white;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+    }
+    .Projects{
+        background-image: url("projects.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px dashed greenyellow;
+        color: white;
+        padding: 5%;
+        min-width: 100%;
+        h1{
+            text-align: center;
+        }
+        }
+        .pr1{
+            border: 1px dashed greenyellow;
+        }
+        .pr2{
+            border: 1px dashed greenyellow;
+        }
+        .pr3{
+            border: 1px dashed greenyellow;
+        }
+        .pr4{
+            border: 1px dashed greenyellow;
+        }
+        .pr5{
+            border: 1px dashed greenyellow;
+        }
+        .pr6{
+            border: 1px dashed greenyellow;
+        }
+        .pr7{
+            border: 1px dashed greenyellow;
+        }
+        .pr8{
+            border: 1px dashed greenyellow;
+        }
+    .Contact{
+        border: 3px dashed wheat;
+    }
+    footer{
+        border: 3px solid red;
+        a{
+            border: 1px dashed red;
+        }
+    }
+}
