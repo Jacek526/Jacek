@@ -56,6 +56,9 @@ body{
         }
     }
     section{
+        background-image: url("tech.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
         color: white;
         padding: 5%;
         border-radius: 25%;
@@ -131,7 +134,7 @@ body{
         }
         .pr8{
             border: 1px dashed greenyellow;
-            border-radius: 25px;
+            
         }
     footer{
         border: 3px solid red;

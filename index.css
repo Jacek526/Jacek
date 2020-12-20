@@ -67,6 +67,9 @@ body Article .AboutMe h1 {
 }
 
 body section {
+  background-image: url("tech.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   padding: 5%;
   border-radius: 25%;
@@ -156,7 +159,6 @@ body .pr7 {
 
 body .pr8 {
   border: 1px dashed greenyellow;
-  border-radius: 25px;
 }
 
 body footer {
