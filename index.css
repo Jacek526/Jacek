@@ -4,31 +4,25 @@
 }
 
 body {
-  background-color: #333232;
+  background-color: #3a3737;
   padding: 100px;
   padding-top: 0px;
 }
 
-body header {
-  width: 100%;
+body .header {
   display: flex;
-  position: fixed;
+  justify-content: space-between;
   margin-top: 0px;
 }
 
-body header h1 {
-  position: absolute;
-  margin-left: 1%;
+body .header h1 {
   font-family: monospace;
 }
 
 body .menu {
-  border: 1px dashed red;
-  background-position: center;
   font-family: monospace;
-  text-align: center;
-  margin-top: 0;
-  text-decoration: none;
+  position: fixed;
+  margin-left: 33%;
 }
 
 body .menu a {
@@ -38,13 +32,11 @@ body .menu a {
   text-align: center;
   margin: 25px;
   padding: 5px;
-  text-decoration: none;
   color: black;
 }
 
 body Article {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: url("Oceanwp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -61,19 +53,21 @@ body Article .photo {
 }
 
 body Article .AboutMe {
+  color: whitesmoke;
   border-radius: 50px;
   margin-left: 100px;
 }
 
 body Article .AboutMe h1 {
+  font-size: 2em;
   font-family: monospace;
 }
 
 body section {
-  background-image: url("tech.jpeg");
+  font-family: cursive;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: whitesmoke;
   padding: 5%;
   border-radius: 25%;
 }
@@ -82,38 +76,68 @@ body section h1 {
   padding-top: 5%;
   padding-bottom: 5%;
   text-align: center;
-  color: white;
+  color: whitesmoke;
 }
 
 body section .Html {
-  border-radius: 50%;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   padding-bottom: 5%;
   padding-top: 1%;
 }
 
-body section .Sass {
-  border-radius: 50%;
+body section .Css {
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
   padding-bottom: 5%;
   padding-top: 1%;
 }
 
 body section .Js {
-  border-radius: 50%;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid whitesmoke;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .Sass {
+  text-align: center;
+  border: 1px solid whitesmoke;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .React {
+  text-align: center;
+  border: 1px solid whitesmoke;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .Bootstrap {
+  text-align: center;
+  border: 1px solid whitesmoke;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .Git {
+  text-align: center;
+  border: 1px solid whitesmoke;
+  padding-bottom: 5%;
+  padding-top: 1%;
+}
+
+body section .jQuery {
+  text-align: center;
+  border: 1px solid whitesmoke;
   padding-bottom: 5%;
   padding-top: 1%;
 }
 
 body .Projects {
-  background-image: url("projects.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
+  font-family: sans-serif;
+  color: whitesmoke;
   padding: 5%;
   min-width: 100%;
   border-radius: 25%;
@@ -177,4 +201,10 @@ body footer .favicon {
 body footer a {
   font-size: 25px;
   margin: 0px 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #3a3737;
+  }
 }

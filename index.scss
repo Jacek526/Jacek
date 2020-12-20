@@ -3,27 +3,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(58, 55, 55);
     padding: 100px;
     padding-top: 0px;
-    header{
-        width: 100%;
+    .header{
         display: flex;
-        position: fixed;
+        justify-content: space-between;
         margin-top: 0px;
         h1{
-            position: absolute;
-            margin-left: 1%;
             font-family: monospace;
         }
     }
     .menu{
-        border: 1px dashed red;
-        background-position: center;
         font-family: monospace;
-        text-align: center;
-        margin-top: 0;
-        text-decoration: none;
+        position: fixed;
+        margin-left: 33%;
         a{
             border-radius: 25px;
             background-color: wheat;
@@ -31,13 +25,11 @@ body{
             text-align: center;
             margin: 25px;
             padding: 5px;
-            text-decoration: none;
             color: black;
         }
     }
     Article{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-image: url("Oceanwp.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -51,53 +43,80 @@ body{
             height: 100%;
         }
         .AboutMe{
+            color: whitesmoke;
             border-radius: 50px;
             margin-left:100px;
             h1{
+                font-size: 2em;
                 font-family: monospace;
             }
         }
     }
     section{
-        background-image: url("tech.jpeg");
+        font-family: cursive;
         background-repeat: no-repeat;
         background-size: cover;
-        color: white;
+        color: whitesmoke;
         padding: 5%;
         border-radius: 25%;
         h1{
             padding-top: 5%;
             padding-bottom: 5%;
             text-align: center;
-            color: white;
+            color: whitesmoke;
         }
         .Html{
-            border-radius: 50%;
             text-align: center;
-            border: 1px solid white;
+            border: 1px solid whitesmoke;
             padding-bottom: 5%;
             padding-top: 1%;
         }
-        .Sass{
-            border-radius: 50%;
+        .Css{
             text-align: center;
-            border: 1px solid white;
+            border: 1px solid whitesmoke;
             padding-bottom: 5%;
             padding-top: 1%;
         }
         .Js{
-            border-radius: 50%;
             text-align: center;
-            border: 1px solid white;
+            border: 1px solid whitesmoke;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .Sass{
+            text-align: center;
+            border: 1px solid whitesmoke;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .React{
+            text-align: center;
+            border: 1px solid whitesmoke;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .Bootstrap{
+            text-align: center;
+            border: 1px solid whitesmoke;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .Git{
+            text-align: center;
+            border: 1px solid whitesmoke;
+            padding-bottom: 5%;
+            padding-top: 1%;
+        }
+        .jQuery{
+            text-align: center;
+            border: 1px solid whitesmoke;
             padding-bottom: 5%;
             padding-top: 1%;
         }
     }
     .Projects{
-        background-image: url("projects.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
+        font-family: sans-serif;
+        color: whitesmoke;
         padding: 5%;
         min-width: 100%;
         border-radius: 25%;
@@ -152,3 +171,10 @@ body{
         }
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(58, 55, 55);
+    }
+  }
