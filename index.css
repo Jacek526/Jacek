@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   text-decoration: none;
   box-sizing: border-box;
@@ -11,27 +10,30 @@ body {
 }
 
 body header {
-  background-image: url("Ocean.jpg.jpg");
+  background-image: url("Ocean.jpg");
   width: 100%;
   display: flex;
 }
 
 body header h1 {
   margin-left: 1%;
+  font-family: monospace;
 }
 
 body .menu {
+  font-family: monospace;
   text-align: right;
   margin-top: 0;
   text-decoration: none;
   border-radius: 25px;
-  margin-left: 30%;
+  margin-left: 60%;
 }
 
 body .menu a {
   border-radius: 25px;
   background-color: wheat;
   justify-content: space-between;
+  text-align: center;
   margin: 25px;
   padding: 5px;
   text-decoration: none;
@@ -40,7 +42,7 @@ body .menu a {
 
 body Article {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-image: url("Oceantło.jpg");
+  background-image: url("Oceanwp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -51,13 +53,17 @@ body Article {
 }
 
 body Article .photo {
-  background-image: url();
+  border: 1px dashed red;
 }
 
 body Article .AboutMe {
   border: 1px solid blue;
   border-radius: 50px;
   margin-left: 0;
+}
+
+body Article .AboutMe h1 {
+  font-family: monospace;
 }
 
 body section {
@@ -118,38 +124,42 @@ body .Projects h1 {
 
 body .pr1 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr2 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr3 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr4 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr5 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr6 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr7 {
   border: 1px dashed greenyellow;
+  border-radius: 25px;
 }
 
 body .pr8 {
   border: 1px dashed greenyellow;
-}
-
-body .Contact {
-  border: 3px dashed wheat;
+  border-radius: 25px;
 }
 
 body footer {

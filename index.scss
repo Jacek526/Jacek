@@ -7,23 +7,26 @@ body{
     margin: 5px;
     padding: 5px;
     header{
-        background-image: url("Ocean.jpg.jpg");
+        background-image: url("Ocean.jpg");
         width: 100%;
         display: flex;
         h1{
             margin-left: 1%;
+            font-family: monospace;
         }
     }
     .menu{
+        font-family: monospace;
         text-align: right;
         margin-top: 0;
         text-decoration: none;
         border-radius: 25px;
-        margin-left: 30%;
+        margin-left: 60%;
         a{
             border-radius: 25px;
             background-color: wheat;
             justify-content: space-between;
+            text-align: center;
             margin: 25px;
             padding: 5px;
             text-decoration: none;
@@ -32,7 +35,7 @@ body{
     }
     Article{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-image: url("Oceantło.jpg");
+        background-image: url("Oceanwp.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -41,12 +44,15 @@ body{
         text-align: center;
         padding: 20%;
         .photo{
-            background-image: url();
+            border: 1px dashed red;
         }
         .AboutMe{
             border: 1px solid blue;
             border-radius: 50px;
             margin-left:0;
+            h1{
+                font-family: monospace;
+            }
         }
     }
     section{
@@ -100,31 +106,36 @@ body{
         }
         .pr1{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr2{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr3{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr4{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr5{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr6{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr7{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
         .pr8{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
         }
-    .Contact{
-        border: 3px dashed wheat;
-    }
     footer{
         border: 3px solid red;
         a{
