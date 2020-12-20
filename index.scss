@@ -3,25 +3,27 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(12, 4, 4);
-    margin: 5px;
-    padding: 5px;
+    background-color: rgb(51, 50, 50);
+    padding: 100px;
+    padding-top: 0px;
     header{
-        background-image: url("Ocean.jpg");
         width: 100%;
         display: flex;
+        position: fixed;
+        margin-top: 0px;
         h1{
+            position: absolute;
             margin-left: 1%;
             font-family: monospace;
         }
     }
     .menu{
+        border: 1px dashed red;
+        background-position: center;
         font-family: monospace;
-        text-align: right;
+        text-align: center;
         margin-top: 0;
         text-decoration: none;
-        border-radius: 25px;
-        margin-left: 60%;
         a{
             border-radius: 25px;
             background-color: wheat;
@@ -43,13 +45,14 @@ body{
         display: flex;
         text-align: center;
         padding: 20%;
+        border-radius: 25%;
         .photo{
-            border: 1px dashed red;
+            width: 100%;
+            height: 100%;
         }
         .AboutMe{
-            border: 1px solid blue;
             border-radius: 50px;
-            margin-left:0;
+            margin-left:100px;
             h1{
                 font-family: monospace;
             }
@@ -67,25 +70,23 @@ body{
             padding-bottom: 5%;
             text-align: center;
             color: white;
-            border: 1px solid green;
-            border-radius: 50%;
         }
         .Html{
-            border-radius: 25%;
+            border-radius: 50%;
             text-align: center;
             border: 1px solid white;
             padding-bottom: 5%;
             padding-top: 1%;
         }
         .Sass{
-            border-radius: 25%;
+            border-radius: 50%;
             text-align: center;
             border: 1px solid white;
             padding-bottom: 5%;
             padding-top: 1%;
         }
         .Js{
-            border-radius: 25%;
+            border-radius: 50%;
             text-align: center;
             border: 1px solid white;
             padding-bottom: 5%;
@@ -96,10 +97,10 @@ body{
         background-image: url("projects.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        border: 3px dashed greenyellow;
         color: white;
         padding: 5%;
         min-width: 100%;
+        border-radius: 25%;
         h1{
             text-align: center;
         }
@@ -134,12 +135,20 @@ body{
         }
         .pr8{
             border: 1px dashed greenyellow;
+            border-radius: 25px;
             
         }
     footer{
-        border: 3px solid red;
+        align-items: center;
+        padding: 2px;
+        background-color: wheat;
+        .favicon{
+            text-align: center;
+            justify-content: center;
+        }
         a{
-            border: 1px dashed red;
+            font-size: 25px;
+            margin: 0px 50px;
         }
     }
 }
