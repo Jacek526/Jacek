@@ -1,5 +1,5 @@
-# Front-End Portfolio
-Portfolio
+# Front-End Course
+Course
 
 # Technologie:
 -HTML
